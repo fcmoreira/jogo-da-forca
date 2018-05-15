@@ -383,7 +383,7 @@ public class Interface extends JFrame implements ActionListener, ItemListener {
 	public void eventoMenu (ActionEvent e) {
 		if (e.getSource() == this.sobre){
 			ImageIcon icon = new ImageIcon ("img//icone.gif");
-			JOptionPane.showMessageDialog (null,"JOGO DA FORCA\nDesenvolvido por Loiane Groner\nVersão 1.5\nFevereiro/2006","Sobre",JOptionPane.INFORMATION_MESSAGE,icon);
+			JOptionPane.showMessageDialog (null,"JOGO DA FORCA\nDesenvolvido por Fabio, Davi e João\nVersão 1.5\nFevereiro/2018","Sobre",JOptionPane.INFORMATION_MESSAGE,icon);
 		}
 		if (e.getSource() == this.sair){
 			System.exit(0);
